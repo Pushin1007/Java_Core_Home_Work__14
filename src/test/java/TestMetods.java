@@ -37,7 +37,9 @@ public class TestMetods {
         Assertions.assertEquals(false, Main.arr1And4(new int[]{4, 4, 4, 4}));
         Assertions.assertEquals(true, Main.arr1And4(new int[]{1, 4, 4, 1, 1, 4, 3}));
         Assertions.assertEquals(false, Main.arr1And4(new int[]{14, 41, 11, 44}));
+        Assertions.assertEquals(false, Main.arr1And4(new int[]{14, 41, 11, 44}));
     }
 }
+
 
 
